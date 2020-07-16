@@ -1,0 +1,73 @@
+
+*{
+	box-sizing: border-box;
+}
+
+section{
+	display: block;
+}
+
+#style {
+	font-family: "Comic Sans MS";
+	text-align: center;
+	font-size: 75%;
+}
+
+#row {
+	width: 100%;
+	padding: 5px;
+}
+
+.row > div {
+	border: 1px solid black;
+	background-color: gray;
+	margin: 10px;
+	height: 130px;
+}
+
+#lorem {
+	position: absolute;
+	top: 32px;
+	font-family: "Comic Sans MS";
+	font-size: 25%;
+}
+
+#secC{
+	position: absolute;
+  	top: -1px;
+  	right: -1px;
+  	width: 100px;
+  	height: 30px;
+	border: 1px solid black;
+	background-color: #CD9B9A;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 75%;
+}
+
+#secB{
+	position: absolute;
+  	top: -1px;
+  	right: -1px;
+  	width: 100px;
+  	height: 30px;
+	border: 1px solid black;
+	background-color: #B44E48;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	color: white;
+	font-size: 75%;
+}
+
+#secS{
+	position: absolute;
+  	top: -1px;
+  	right: -1px;
+  	width: 100px;
+  	height: 30px;
+	border: 1px solid black;
+	background-color: #E2D19F;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 75%;
+}
